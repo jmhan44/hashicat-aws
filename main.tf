@@ -193,7 +193,7 @@ resource aws_instance "web" {
 
   tags = {
     Name = "HelloWorld",
-    Billable = true,
+    Billable = "true",
     Department = "devops"
   }
 }
